@@ -82,7 +82,7 @@ html{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('delicious-healthy-asian-food-black-textured-background-with-copy-space.jpg') no-repeat center center/cover;
+    background: url('Week 3/delicious-healthy-asian-food-black-textured-background-with-copy-space.jpg') no-repeat center center/cover;
     height: 642px;
     top:0px;
     left:0px;
@@ -168,7 +168,7 @@ html{
 
 #contact{
     position: relative;
-    background: url('gold-cutlery-set-black-background.jpg') no-repeat center center/cover;
+    background: url('Week 3/gold-cutlery-set-black-background.jpg') no-repeat center center/cover;
 }
 #contact::before{
     content: "";
