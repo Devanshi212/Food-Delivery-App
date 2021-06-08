@@ -103,9 +103,6 @@ html{
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
 }
-.backdrop{
-    background-image: linear-gradient(to bottom, #f7f0ee, #cdc8c8, #a5a2a3, #7e7d7e, #5a5a5a);
-}
 #services{
     margin: 34px;
     display: flex;
