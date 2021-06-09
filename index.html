@@ -56,6 +56,14 @@
             </div>
         </div>
     </section>
+        
+        <ul id="slides">
+    <li class="slide showing">Slide 1</li>
+    <li class="slide">Slide 2</li>
+    <li class="slide">Slide 3</li>
+    <li class="slide">Slide 4</li>
+    <li class="slide">Slide 5</li>
+</ul>
   
     <section id="client-section">
         <h1 class="h-primary center">Our Clients</h1>
@@ -130,6 +138,15 @@
     document.getElementById("submit").addEventListener("click", ()=> {
         alert("Your request has been submitted")
     })
+    var slides = document.querySelectorAll('#slides .slide');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide,2000);
+
+function nextSlide() {
+    slides[currentSlide].className = 'slide';
+    currentSlide = (currentSlide+1)%slides.length;
+    slides[currentSlide].className = 'slide showing';
+}
 </script>
 
 </html>
