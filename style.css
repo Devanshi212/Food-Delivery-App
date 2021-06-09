@@ -48,7 +48,6 @@ html{
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
-    text-decoration: none;
 }
 #navbar ul{
     display: flex;
