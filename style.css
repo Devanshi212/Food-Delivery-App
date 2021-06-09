@@ -166,6 +166,7 @@ html{
 #contact{
     position: relative;
     background: url('Week 3/gold-cutlery-set-black-background.jpg') no-repeat center center/cover;
+    padding-bottom:20px;
 }
 #contact::before{
     content: "";
