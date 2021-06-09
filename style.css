@@ -232,6 +232,10 @@ color: white;
     border-radius: 10px;
     cursor:pointer;
 }
+.btn:hover{
+    color: black;
+    background-color: white;
+}
 
 .center{
     text-align: center;
@@ -240,4 +244,8 @@ color: white;
     position: relative;
     margin: 0% 45%;
     background-color:black;
+}
+.submit-btn{
+    color: black;
+    background-color: white;
 }
