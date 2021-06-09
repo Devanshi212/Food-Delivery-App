@@ -76,7 +76,7 @@ html{
     padding:3px 200px;
     height: 550px;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
 }
 
 #home::before{ 
