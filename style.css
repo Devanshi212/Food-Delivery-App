@@ -245,7 +245,7 @@ color: white;
     margin: 0% 45%;
     background-color:black;
 }
-.submit-btn{
+.submit-btn:hover{
     color: black;
     background-color: white;
 }
