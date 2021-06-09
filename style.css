@@ -255,15 +255,15 @@ color: white;
     color: black;
     background-color: white;
 }
-#slides img{
+#slides{
     position: relative;
-    height: 300px;
+    height: 200px;
     padding: 0px;
     margin: 0px;
     list-style-type: none;
 }
 
-.slide img{
+.slide {
     position: absolute;
     left: 0px;
     top: 0px;
