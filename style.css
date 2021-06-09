@@ -23,8 +23,9 @@ html{
     content: "";
     background-color: black;
     position: absolute;
-    top:0px;
-    left:0px;
+    /*top:0px;
+    left:0px;*/
+    align-items:center;
     height: 100%;
     width:100%;
     z-index: -1;
