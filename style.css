@@ -255,7 +255,7 @@ color: white;
     color: black;
     background-color: white;
 }
-#slides {
+#slides img{
     position: relative;
     height: 300px;
     padding: 0px;
@@ -263,7 +263,7 @@ color: white;
     list-style-type: none;
 }
 
-.slide {
+.slide img{
     position: absolute;
     left: 0px;
     top: 0px;
