@@ -75,8 +75,8 @@ html{
     flex-direction: column;
     padding:3px 200px;
     height: 550px;
-    justify-content:center;
-    align-items:center;
+    justify-content:flex-start;
+    align-items:flex-start;
 }
 
 #home::before{ 
