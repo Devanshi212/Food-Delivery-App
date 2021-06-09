@@ -41,14 +41,6 @@ html{
     margin: 3px 6px;
 }
 
-#main{
-    font-size: xx-large;
-    font-weight: 500;
-    color: azure;
-    display: block;
-    padding: 3px 22px;
-    border-radius: 20px;
-}
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai', cursive;
@@ -57,6 +49,14 @@ html{
 #navbar ul li{ 
     list-style: none;
     font-size: 1.3rem;
+}
+#main{
+    font-size: xx-large;
+    font-weight: 500;
+    color: azure;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
 }
 
 #navbar ul li a{
