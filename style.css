@@ -76,6 +76,7 @@ html{
     padding:3px 200px;
     height: 550px;
     justify-content:center;
+    align-items:center;
 }
 
 #home::before{ 
@@ -92,13 +93,11 @@ html{
 
 #home h1{
     color:white;
-    text-align:left;
     font-family: 'Bree Serif', serif;
 }
 
 #home p{
     color:white;
-    text-align:left;
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
 }
