@@ -15,10 +15,6 @@ html,body
     font-size: 1rem;
     padding: 0px 7px;
     padding-bottom: 8px;
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
 }
 #home{
     height: 370px; 
