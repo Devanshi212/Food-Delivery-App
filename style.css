@@ -197,6 +197,7 @@ html{
     padding: 0.5rem;
     border-radius: 9px;
     font-size: 1.1rem;
+    background-color:#dfdfdf;
 } 
 
 #contact-box form{
