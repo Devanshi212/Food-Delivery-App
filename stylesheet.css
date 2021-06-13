@@ -84,6 +84,7 @@ html,body
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
+        z-index: 10000;
     }
     .toggle.active
     {
