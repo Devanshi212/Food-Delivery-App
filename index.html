@@ -18,7 +18,7 @@
             <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2021/240/iconmonstr-cook-3.png">
        </div>
        <div class="toggle" onclick="toggleMenu()"></div>
-        <ul class="navigation">
+        <ul class="dropdown">
             <li id="main">DEVATO</li>
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#services-container">Services</a></li>
@@ -160,9 +160,9 @@ function nextSlide() {
     function toggleMenu()
       {
           const menuToggle = document.querySelector('.toggle');
-          const navigation = document.querySelector('.navigation')
+          const dropdown = document.querySelector('.dropdown')
           menuToggle.classList.toggle('active')
-          navigation.classList.toggle('active')
+          dropdown.classList.toggle('active')
       }
 </script>
 
