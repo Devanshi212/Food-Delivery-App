@@ -80,7 +80,7 @@ html,body
         position: relative;
         width: 30px;
         height: 30px;
-        background: url();
+        background: url(https://cdns.iconmonstr.com/wp-content/assets/preview/2013/240/iconmonstr-menu-6.png);
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
@@ -92,3 +92,4 @@ html,body
         background-repeat: no-repeat;
         background-position: center;
     }
+}
