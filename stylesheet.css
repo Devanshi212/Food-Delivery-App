@@ -36,8 +36,8 @@ html,body
 .toggle
     {
         position: relative;
-        height:30px;
-        width:30px;
+        width: 30px;
+        height: 30px;
         background: url(https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-angel-down-circle-thin.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -47,10 +47,9 @@ html,body
     .toggle.active
     {
         background: url(https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-x-mark-circle-thin.png);
+        background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 25px;
-       
     }
 
 #home{
