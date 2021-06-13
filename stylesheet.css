@@ -7,7 +7,6 @@ html,body
 
 #navbar {
     flex-direction: column;
-    position:sticky;
 }
 
 #navbar ul li a{
