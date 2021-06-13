@@ -36,10 +36,11 @@ html,body
 .toggle
     {
         position: relative;
+        height:30px;
+        width:30px;
         background: url(https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-angel-down-circle-thin.png);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 25px;
         cursor: pointer;
         z-index: 10000;
     }
