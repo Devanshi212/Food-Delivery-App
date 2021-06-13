@@ -17,8 +17,8 @@
         <div id="logo">
             <img src="https://cdns.iconmonstr.com/wp-content/assets/preview/2021/240/iconmonstr-cook-3.png">
        </div>
-       
-        <ul>
+       <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
             <li id="main">DEVATO</li>
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#services-container">Services</a></li>
@@ -157,6 +157,13 @@ function nextSlide() {
     currentSlide = (currentSlide+1)%slides.length;
     slides[currentSlide].className = 'slide showing';
 }   
+    function toggleMenu()
+      {
+          const menuToggle = document.querySelector('.toggle');
+          const navigation = document.querySelector('.navigation')
+          menuToggle.classList.toggle('active')
+          navigation.classList.toggle('active')
+      }
 </script>
 
 </html>
