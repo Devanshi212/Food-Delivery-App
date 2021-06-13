@@ -56,3 +56,21 @@ html,body
     font-size: 13px;
     padding: 4px 8px;
 }
+.toggle
+    {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background: url(menu.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        z-index: 10000;
+    }
+    .toggle.active
+    {
+        background: url(close.png);
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
