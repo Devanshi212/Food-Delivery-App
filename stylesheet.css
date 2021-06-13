@@ -79,7 +79,7 @@ html,body
         position: relative;
         width: 30px;
         height: 30px;
-        background: url(menu.png);
+        background: url(https://icon-library.net/images/dropdown-menu-icon/dropdown-menu-icon-5.jpg);
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
@@ -87,7 +87,7 @@ html,body
     }
     .toggle.active
     {
-        background: url(close.png);
+        background: url(https://cdn3.iconfinder.com/data/icons/mobile-friendly-ui/100/arrow_drop_up-512.png);
         background-size: 25px;
         background-repeat: no-repeat;
         background-position: center;
