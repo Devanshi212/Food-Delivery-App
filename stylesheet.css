@@ -33,6 +33,25 @@ html,body
         align-items: center;
         background: black;
     }
+.toggle
+    {
+        position: relative;
+        background: url(https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-angel-down-circle-thin.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25px;
+        cursor: pointer;
+        z-index: 10000;
+    }
+    .toggle.active
+    {
+        background: url(https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-x-mark-circle-thin.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 25px;
+       
+    }
+
 #home{
     height: 370px; 
     padding: 3px 28px;
@@ -74,21 +93,3 @@ html,body
     font-size: 13px;
     padding: 4px 8px;
 }
-.toggle
-    {
-        position: relative;
-        background: url(https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-angel-down-circle-thin.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 25px;
-        cursor: pointer;
-        z-index: 10000;
-    }
-    .toggle.active
-    {
-        background: url(https://cdns.iconmonstr.com/wp-content/assets/preview/2018/240/iconmonstr-x-mark-circle-thin.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 25px;
-       
-    }
